@@ -14,4 +14,4 @@ jobs:
         run: |
           docker build -t rayed14/maven-java-monitoring-example .
           docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }}
-          docker push rayed14/maven-java-monitoring-example)
+          docker push rayed14/maven-java-monitoring-example
